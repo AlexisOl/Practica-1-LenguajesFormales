@@ -243,7 +243,7 @@ public class Identificadores {
     
     
     // metodo para la creacion de mensajes tipo String 
-    static String regresoString(Stack<Character> stack){
+   public  static String regresoString(Stack<Character> stack){
         String mensaje = "";
         for(char caracter : stack){
             mensaje = mensaje +caracter;
